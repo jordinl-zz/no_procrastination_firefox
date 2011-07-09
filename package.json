@@ -6,6 +6,6 @@
     "fullName": "No Procrastination", 
     "id": "jid1-dZw2T47VBMBuKg", 
     "description": "Block the sites that decrease your productivity",
-    "icon": "data/hand_on_16.png",
-    "icon64": "data/hand_on_64.png"
+    "icon": "data/img/hand_on_16.png",
+    "icon64": "data/img/hand_on_64.png"
 }

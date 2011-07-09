@@ -20,7 +20,7 @@ NoProc = {
     html_list = $('#domain_list');
     html_list.html('');
     $.each(NoProc.domain_list(), function(index, value){
-      item = '<tr><td><a href="#" class="remove"><img src="delete.png"></a></td>';
+      item = '<tr><td><a href="#" class="remove"><img src="/img/delete.png"></a></td>';
       item += '<td class="domain">' + value + '</td></tr>';
       html_list.append(item);
     });

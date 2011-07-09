@@ -4,14 +4,14 @@ body.should_be_working{
 }
 
 .topbar{
-  padding: 8px; margin-bottom: 20px; background: url("/bar.png"); color:white;
+  padding: 8px; margin-bottom: 20px; background: url("/img/bar.png"); color:white;
 }
 
 .topbar a{
   text-decoration:none; color: #27B33C;
 }
 
-img.you_should_be_working{
+img#you_should_be_working{
   display:block; margin-left:auto; margin-right:auto;
 }
 
