@@ -26,6 +26,18 @@ NoProc = {
     });
   },
 
+  refresh_timer: function(time_difference){
+    if(NoProc.is_paused()){
+      $('.procrastinating').show();
+      $('.working').hide();
+    }
+    else{
+      $('.procrastinating').hide();
+      $('.working').show();
+    }
+    $('.time').html(time_difference);
+  },
+
   bind_events: function(){
     $('.remove').live('click', function(e){
       e.preventDefault();
@@ -59,6 +71,7 @@ NoProc = {
     NoProc.set_icon();
     NoProc.parse_list();
     NoProc.bind_events();
+    NoProc.set_timer();
   }
 
 }

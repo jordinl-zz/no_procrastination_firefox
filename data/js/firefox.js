@@ -8,6 +8,12 @@ self.port.on('set_variables', function(params){
   NoProc.set_variables(params);
 });
 
+self.port.on('set_timer', function(time_difference){
+  NoProc.refresh_timer(time_difference);
+});
+
+NoProc.set_timer = function(){ }
+
 self.on('message', function(params){
   NoProc.set_variables(params);
 
