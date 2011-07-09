@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+    <script src='http://documentcloud.github.com/underscore/underscore-min.js'></script>
+    <script src='no_procrastination.js'></script>
+    <script src='chrome.js'></script>
+    <script type='text/javascript'>
+      $(document).ready(function(){
+        NoProc.initialize_popup();
+      });
+    </script>
+
+  </head>
+  <body>
+    <button id="pause_button">Pause</button>
+    <button id="clear_list">Clear list</button>
+    <form id="add_domain">
+      <input name="domain" id='domain'/>
+      <input type='submit' value='Add' />
+    </form>
+    <table id='domain_list'>
+    </table>
+  </body>
+</html>
