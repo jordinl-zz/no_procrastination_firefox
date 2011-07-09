@@ -9,16 +9,17 @@
         NoProc.initialize_popup();
       });
     </script>
-
+    <link rel='stylesheet' href='application.css'>
   </head>
-  <body>
-    <button id="pause_button">Pause</button>
-    <button id="clear_list">Clear list</button>
+  <body class='popup'>
+    <button id="pause_button" class='button'>Pause</button>
     <form id="add_domain">
+      <h3>Blocked domains</h3>
       <input name="domain" id='domain'/>
-      <input type='submit' value='Add' />
+      <input type='submit' value='Add' class='button'/>
     </form>
     <table id='domain_list'>
     </table>
+    <button id="clear_list" class='button'>Clear list</button>
   </body>
 </html>

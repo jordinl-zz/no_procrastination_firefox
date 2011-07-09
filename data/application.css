@@ -1,0 +1,101 @@
+/*  --- you_should_be_working.html ---  */
+body.should_be_working{
+  margin: 0;
+}
+
+.topbar{
+  padding: 8px; margin-bottom: 20px; background: url("/bar.png"); color:white;
+}
+
+.topbar a{
+  text-decoration:none; color: #27B33C;
+}
+
+img.you_should_be_working{
+  display:block; margin-left:auto; margin-right:auto;
+}
+
+body.popup {
+  width: 300px;
+  font: normal 13px/100% Verdana, Tahoma, sans-serif;
+}
+/*  --- you_should_be_working.html ---  */
+
+/*  --- popup.html --- */
+.button {
+  background: #7FBF4D;
+  background: -moz-linear-gradient(top, #7FBF4D 0%, #63A62F 100%);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7FBF4D), to(#63A62F));
+  border: 1px solid #63A62F;
+  border-bottom: 1px solid #5B992B;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: inset 0 1px 0 0 #96CA6D;
+  -webkit-box-shadow: inset 0 1px 0 0 #96CA6D;
+  box-shadow: inset 0 1px 0 0 #96CA6D;
+  color: white;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 7px 0 8px 0;
+  text-align: center;
+  text-shadow: 0 -1px 0 #4C9021;
+  width: 120px;
+}
+
+button{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+input.button{
+  width: 90px;
+}
+
+.button:hover {
+  background: #76b347;
+  background: -moz-linear-gradient(top, #76b347 0%, #5e9e2e 100%);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#76b347), to(#5e9e2e));
+  -moz-box-shadow: inset 0 1px 0 0 #8dbf67;
+  -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
+  box-shadow: inset 0 1px 0 0 #8dbf67;
+  cursor: pointer;
+}
+
+.button:active {
+  border: 1px solid #5b992b;
+  border-bottom: 1px solid #538c27;
+  -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eee;
+  -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eee;
+  box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eee;
+}
+
+#domain {
+  padding: 7px;
+  border: solid 1px #E5E5E5;
+  outline: 0;
+  width: 200px;
+  background: #FFFFFF;
+}
+
+#domain:focus, #domain:hover{
+  border-color: #C9C9C9;  
+}
+
+#add_domain{
+  margin-top: 20px;
+}
+
+#domain_list{
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.remove img{
+  margin-top: 4px;
+}
+/*  --- popup.html --- */
