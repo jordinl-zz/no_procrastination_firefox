@@ -98,4 +98,16 @@ input.button{
 .remove img{
   margin-top: 4px;
 }
+
+.timer .time{
+  text-align:center;
+}
+
+.procrastinating .time{
+  color: red;
+}
+
+.working .time{
+  color: blue;
+}
 /*  --- popup.html --- */
