@@ -71,7 +71,7 @@ NoProc = {
     NoProc.set_icon();
     NoProc.parse_list();
     NoProc.bind_events();
-    NoProc.set_timer();
+    NoProc.initialize_timer();
   }
 
 }
